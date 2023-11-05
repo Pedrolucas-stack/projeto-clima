@@ -1,0 +1,66 @@
+    /* Estilos para smartphones */
+@media (max-width: 768px) {
+
+    .menu {
+        gap: 5px;
+        margin-top: 50px;
+        height: 3.75rem;
+    }
+
+    .menu p {
+        font-size: 0.8rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+
+    #city-input {
+        padding: 0.188rem;
+        padding-right: 0.4rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight:bold;
+        align-content: center;
+        font-size: 0.8rem;
+
+    }
+
+    #div_climate {
+        height: 25rem;
+        gap: 40px;
+    }
+}
+
+    /* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .menu {
+        gap: 15px;
+        margin-top: 50px;
+        height: 3.75rem;
+    }
+
+    .menu p {
+        font-size: 1.625rem;
+        font-weight: 600;
+        color: rgb(255, 255, 255);
+    }
+
+    #city-input {
+        padding: 0.188rem;
+        padding-right: 0.4rem;
+        border-radius: 0.5rem;
+        border: none;
+        font-weight:bold;
+        align-content: center;
+        font-size: 1.25rem;
+
+    }
+
+    .menu i {
+        font-size: 1.25rem;
+    }
+
+    #div_climate {
+        margin-top: 20px;
+    }
+}
